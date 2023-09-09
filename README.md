@@ -1,7 +1,7 @@
 # FastAPI Auth Custom Code
 
 ### Video Tutorial
-[Click here](https://youtube.com/)
+[Click here](https://youtu.be/z3nwf7wGdUw)
 
 ### Info
 This project contains the code for creating the below four apis
