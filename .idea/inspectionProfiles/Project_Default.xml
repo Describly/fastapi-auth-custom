@@ -1,0 +1,81 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="transform" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="datapopperarrow" />
+            <item index="1" class="java.lang.String" itemvalue="datatooltipstyle" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="import" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="1" class="java.lang.String" itemvalue="django4-background-tasks" />
+            <item index="2" class="java.lang.String" itemvalue="django-crispy-forms" />
+            <item index="3" class="java.lang.String" itemvalue="crispy-bootstrap5" />
+            <item index="4" class="java.lang.String" itemvalue="tablib" />
+            <item index="5" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="6" class="java.lang.String" itemvalue="django-mailer" />
+            <item index="7" class="java.lang.String" itemvalue="Levenshtein" />
+            <item index="8" class="java.lang.String" itemvalue="requests" />
+            <item index="9" class="java.lang.String" itemvalue="django-tables2" />
+            <item index="10" class="java.lang.String" itemvalue="Django" />
+            <item index="11" class="java.lang.String" itemvalue="fuzzywuzzy" />
+            <item index="12" class="java.lang.String" itemvalue="email-validator" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.__or__" />
+          <option value="str.in_" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

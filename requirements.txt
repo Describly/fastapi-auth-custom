@@ -1,0 +1,8 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+python-dotenv==1.0.0
+pydantic-settings==2.0.3
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+pymysql==1.1.0
+SQLAlchemy==2.0.20
