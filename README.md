@@ -5,7 +5,7 @@
 
 ### Info
 This project contains the code for creating the below four apis
-| Command | Description |
+| API Endpoint | Description |
 | --- | --- |
 | `/users` | Create new user account |
 | `/auth/token` | Create JWT Token |
