@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  fastapi-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fastapi
+    container_name: fastapi
+    networks:
+      - describly
+    depends_on:
+      - mysql-service
+    ports:
+      - "8000:8000"
+
+  adminer-service:
+    image: adminer:latest
+    restart: unless-stopped
+    container_name: adminer
+    depends_on:
+      - mysql-service
+    networks:
+      - describly
+    ports:
+      - "8080:8080"
+
+  mysql-service:
+    image: mysql/mysql-server:8.0.32
+    command: [ "--default-authentication-plugin=mysql_native_password"]
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: $MYSQL_PASSWORD
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_DATABASE: $MYSQL_DB
+    networks:
+      - describly
+    volumes:
+      - mysql:/var/lib/mysql
+
+networks:
+  describly:
+volumes:
+  mysql:
