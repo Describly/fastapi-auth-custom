@@ -13,7 +13,7 @@ This project contains the code for creating the below four apis
 | `/users/me` | Get Authenticated User Detail |
 
 ### Project Setup (For Using API using Docker)
-- Download Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- Download & Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Start the Docker Desktop
 - Clone the Project into your local machine
 - Open Terminal (Mac & Linux), for windows open PowerShell, and navigate to Project Folder
