@@ -35,6 +35,6 @@ Adminer Login Details
 - Database: `fastapi` or you can leave it blank
 
 
-#### **** Congratulation ****
+#### **** Thank you ****
 
 
